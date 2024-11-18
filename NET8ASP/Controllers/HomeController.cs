@@ -1,21 +1,27 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using NET8ASP.Data.AppDbContext;
 using NET8ASP.Models;
+using NET8ASP.Models.ViewModels;
 
 namespace NET8ASP.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private AppDbContext db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(AppDbContext context)
         {
-            _logger = logger;
+            db = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(new HomeViewModel
+            {
+                Cars = db.Cars.Include(c => c.Category).ToList()
+            });
         }
 
         public IActionResult Privacy()

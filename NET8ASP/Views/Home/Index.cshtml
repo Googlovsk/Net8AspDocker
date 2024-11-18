@@ -1,8 +1,23 @@
-﻿@{
+﻿@model NET8ASP.Models.ViewModels.HomeViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="col col-md-10">
+    <div class="row mt-5 mb-2">
+        @foreach (var car in Model.Cars)
+        {
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="border-dark border-2" style="background-color: #EFEFEF; padding: 15px;">
+                    <img class="img-fluid" src="@car.Image" alt="@car.Name" />
+                    <h2>@car.Name</h2>
+                    <p>Категория: <b>@car.Category.Name</b></p>
+                    <p>Цена: @car.Price.ToString("c")</p>
+                    <button class="btn btn-primary" onclick="location.href = '@Url.Action("SingleCar", "Car", new {carId=car.Id})'">Подробнее</button>
+                    <button class="btn btn-success" onclick="location.href = '@Url.Action("AddToCart", "ShopCart", new {id=car.Id})'">В корзину</button>
+                </div>
+            </div>
+        }
+    </div>
 </div>
+

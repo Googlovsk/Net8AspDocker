@@ -1,0 +1,37 @@
+﻿@model NET8ASP.Models.ViewModels.AddCarViewModel
+
+<form asp-action="AddCar" method="post" enctype="multipart/form-data">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Название</label>
+            <input asp-for="@Model.Car.Name" class="form-control"/>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Описание</label>
+            <input asp-for="@Model.Car.Description" class="form-control"/>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-2">
+            <label>Цена</label>
+            <input asp-for="@Model.Car.Price" class="form-control" />
+        </div>
+        <div class="form-group col-md-5">
+            <label>Категория</label>
+            <select asp-for="@Model.Car.CategoryId" class="form-select" aria-label="Default select example">
+                <option selected>Выберите категорию</option>
+                @{
+                    foreach (var category in Model.Categories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                }
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Картинка</label>
+        <input asp-for="@Model.Car.Image" type="file" name="uploadedFile" class="mb-4" />
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+</form>
