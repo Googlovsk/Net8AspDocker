@@ -4,6 +4,11 @@ namespace NET8ASP.Models.ViewModels
 {
     public class HomeViewModel
     {
-        public IEnumerable<Car> Cars { get; set; }
+        public IEnumerable<Product> Products { get; set; }
+
+        public string PageName { get; set; }
+        public IEnumerable<Category> Categories { get; set; }
+        public int? CurrentCategory {  get; set; }
+        public PagingInfo PagingInfo { get; set; }
     }
 }

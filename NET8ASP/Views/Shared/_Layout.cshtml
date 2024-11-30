@@ -3,42 +3,136 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NET8ASP</title>
+    <title>@ViewData["Title"] Живем рыбалкой - Киров </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/NET8ASP.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NET8ASP</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+    @{
+        if (true)
+        {
+            var roleId = User.Claims.FirstOrDefault(c => c.Type == "Role");
+            var userRole = roleId != null ? roleId.Value : "＼(ﾟｰﾟ＼)";
+
+            <header>
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                    <div class="container">
+                        <a class="d-flex align-items-center round" asp-area="" asp-controller="Home" asp-action="Index">
+                            <img class="custom-logo rounded" src="/img/SiteData/logo.png" alt="Живем рыбалкой - Киров" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Car" asp-action="CarList">Все авто</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Car" asp-action="AddCar">Добавить Авто</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="ms-2 navbar-collapse collapse d-sm-inline-flex justify-content-center">
+                            @{
+                                if (userRole == 1.ToString())
+                                {
+                                    <ul class="navbar-nav gap-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link fw-bold text-uppercase" asp-controller="Home" asp-action="Index">Главная</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-uppercase fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Товары</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item nav-link text-dark" asp-controller="Product" asp-action="ProductList">Таблица товаров</a></li>
+                                                <li><a class="dropdown-item nav-link text-dark" asp-controller="Product" asp-action="AddProduct">Добавить товар</a></li>
+                                            </ul> 
+                                        </li>
+                                    </ul>
+                                } else{
+                                    <ul class="navbar-nav flex-grow-1">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark fw-bold text-uppercase" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                                        </li>
+                                    </ul>
+                                }
+                             }
+                        </div>
+                        @{
+                            if (User.Identity.IsAuthenticated)
+                            {
+                                
+                                <div class="d-flex flex-row align-items-center">
+                                    <p class="align-content-center mb-0 mt-0">@User.Identity.Name</p>
+                                    @if (userRole == 2.ToString())
+                                    {
+                                        <form asp-controller="Order" asp-action="OrderList" method="post" class="m-2">
+                                            <button type="submit" class="btn btn-success">Корзина</button>
+                                        </form>
+                                    }
+                                    <form asp-controller="Auth" asp-action="Logout" method="post" class="ms-2">
+                                        <button type="submit" class="btn btn-danger">Выйти</button>
+                                    </form>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="d-flex flex-row align-items-center">
+                                    <form asp-controller="Auth" asp-action="Login" method="post" class="ms-2">
+                                        <button type="submit" class="btn btn-primary">Войти</button>
+                                    </form>
+                                </div>
+                                <div class="d-flex flex-row align-items-center">
+                                    <form asp-controller="Auth" asp-action="Register" method="post" class="ms-2">
+                                        <button type="submit" class="btn btn-primary">Регистрация</button>
+                                    </form>
+                                </div>
+                            }
+                        }
+                    </div>
+                </nav>
+            </header>
+        }
+    }
+    
+    <div class="container-m">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - NET8ASP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="container">
+        <section class="container-m text-center text-lg-start bg-body-tertiary text-muted border rounded">
+            <div class="text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Магазин-Клуб<br/>"Живем рыбалкой"
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Ссылки
+                        </h6>
+                        <p>
+                            <a href="https://vk.com/unifishing" class="text-reset">Вконтакте</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Заказы</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Доставка</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Помощь</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Контакты</h6>
+                        <p><a href="https://yandex.ru/maps/org/zhivyom_rybalkoy/132150565794/?ll=49.639847%2C58.596077&z=21" class="text-muted text-decoration-none">ул. Маклина, 77/3, Киров, этаж 1</a></p>
+                        <p> info@example.com</p>
+                        <p>+7 (8332) 71-17-79</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container text-center mb-3">
+            <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-muted text-decoration-none">&copy; 2024 - Живем рыбалкой Киров</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

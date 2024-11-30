@@ -3,56 +3,52 @@
   "WorkspaceRootPath": "D:\\vs\\NET8ASP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\data\\infrastructure\\pagelinktaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\data\\infrastructure\\pagelinktaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\viewmodels\\addcarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\viewmodels\\addcarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\car\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\car\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\wwwroot\\js\\categoryselecthelper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\wwwroot\\js\\categoryselecthelper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\car\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\car\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\car\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\car\\editcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\data\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\data\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\domain\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\domain\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,176 +58,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T14:38:09.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Models\\ViewModels\\HomeViewModel.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\HomeViewModel.cs",
-              "RelativeToolTip": "NET8ASP\\Models\\ViewModels\\HomeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:35:05.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddCarViewModel.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\AddCarViewModel.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Models\\ViewModels\\AddCarViewModel.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\AddCarViewModel.cs",
-              "RelativeToolTip": "NET8ASP\\Models\\ViewModels\\AddCarViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Title": "PagingInfo.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
+              "RelativeToolTip": "NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:58:09.77Z",
+              "WhenOpened": "2024-11-30T11:55:06.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CarList.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Car\\CarList.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Car\\CarList.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Car\\CarList.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Car\\CarList.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T10:36:13.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\CarController.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Controllers\\CarController.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\CarController.cs",
-              "RelativeToolTip": "NET8ASP\\Controllers\\CarController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:34:58.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\appsettings.json",
-              "RelativeDocumentMoniker": "NET8ASP\\appsettings.json",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\appsettings.json",
-              "RelativeToolTip": "NET8ASP\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-18T10:29:10.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Category.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Models\\Domain\\Category.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Category.cs",
-              "RelativeToolTip": "NET8ASP\\Models\\Domain\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:14:09.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Car.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Car.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Models\\Domain\\Car.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Car.cs",
-              "RelativeToolTip": "NET8ASP\\Models\\Domain\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:51:03.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Data\\AppDbContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Data\\AppDbContext\\AppDbContext.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Data\\AppDbContext\\AppDbContext.cs",
-              "RelativeToolTip": "NET8ASP\\Data\\AppDbContext\\AppDbContext.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwA0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:44:08.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Program.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Program.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Program.cs",
-              "RelativeToolTip": "NET8ASP\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:31:05.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NET8ASP\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\HomeController.cs",
               "RelativeToolTip": "NET8ASP\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:16:57.647Z",
+              "WhenOpened": "2024-11-30T11:23:07.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddCar.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Car\\AddCar.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Car\\AddCar.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Car\\AddCar.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Car\\AddCar.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NET8ASP\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NET8ASP\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T10:35:29.317Z",
+              "WhenOpened": "2024-11-30T11:18:41.706Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T10:59:52.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageLinkTagHelper.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
+              "RelativeToolTip": "NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:07:59.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "NET8ASP\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "NET8ASP\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-30T11:07:17.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Category.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Models\\Domain\\Category.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Category.cs",
+              "RelativeToolTip": "NET8ASP\\Models\\Domain\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:46:46.771Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "EditCar.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Car\\EditCar.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Car\\EditCar.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Car\\EditCar.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Car\\EditCar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T13:42:26.156Z",
+              "Title": "CategorySelectHelper.js",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
+              "RelativeDocumentMoniker": "NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
+              "RelativeToolTip": "NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-27T19:34:07.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NET8ASP\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAewHoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:25:08.304Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:47:35.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "NET8ASP\\Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "NET8ASP\\Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T19:15:49.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "NET8ASP\\Views\\Product\\EditProduct.cshtml",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\EditProduct.cshtml",
+              "RelativeToolTip": "NET8ASP\\Views\\Product\\EditProduct.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwDUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T19:15:48.111Z"
             }
           ]
         },
@@ -254,6 +232,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
