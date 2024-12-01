@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NET8ASP.Models.Domain;
 using NET8ASP.Models.Domain.Cart;
+using NET8ASP.Models.Domain.Order;
 using System.Reflection.Emit;
 
 namespace NET8ASP.Data.AppDbContext
@@ -17,9 +18,8 @@ namespace NET8ASP.Data.AppDbContext
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Manufacturer> Manufacturers { get; set; }
-        public DbSet<ShopCartItem> ShopCartItems { get; set; }
+        public DbSet<Cart> Carts { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -89,6 +89,18 @@ namespace NET8ASP.Data.AppDbContext
                 .HasMany(c => c.SubCategories)
                 .WithOne(c => c.ParentCategory)
                 .HasForeignKey(c => c.ParentCategoryId);
+            builder.Entity<Order>()
+                .HasMany(o => o.OrderItems)
+                .WithOne(oi => oi.Order)
+                .HasForeignKey(oi => oi.OrderId);
+            builder.Entity<OrderItem>()
+                .HasOne(oi => oi.Product)
+                .WithMany()
+                .HasForeignKey(oi => oi.ProductId);
+            builder.Entity<User>()
+               .HasOne(u => u.Cart)
+               .WithOne(c => c.User)
+               .HasForeignKey<Cart>(c => c.UserId);
         }
     }
 }

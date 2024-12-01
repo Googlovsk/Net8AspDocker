@@ -1,0 +1,34 @@
+﻿@model NET8ASP.Models.ViewModels.OrderViewModel
+
+<div class="container">
+    <h2>Подтверждение заказа</h2>
+
+    @foreach (var order in Model.Orders)
+    {
+        <div class="card shadow-sm mb-4">
+            <div class="card-header">
+                <h5>Заказ № @order.Id от @order.OrderDate.ToString("dd.MM.yyyy HH:mm")</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    @foreach (var item in order.OrderItems)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span>@item.Product.Name</span>
+                            <span>Количество: @item.Quantity</span>
+                            <span>Цена: @item.Price.ToString("c")</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="card-footer text-end">
+                <b>Итого: @order.OrderItems.Sum(oi => oi.Quantity * oi.Price).ToString("c")</b>
+            </div>
+        </div>
+    }
+
+    <form asp-action="CompletePayment" asp-controller="Order" method="post">
+        <input type="hidden" name="orderId" value="@Model.Orders.First().Id" />
+        <button type="submit" class="btn btn-success">Оплатить</button>
+    </form>
+</div>

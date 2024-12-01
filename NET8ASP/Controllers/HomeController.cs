@@ -24,10 +24,10 @@ namespace NET8ASP.Controllers
             ViewData["SearchQuery"] = searchQuery;
             var productsQuery = db.Products.AsQueryable();
 
-            // Фильтрация по категории
+           
+
             if (categoryId.HasValue)
             {
-                // Проверяем, есть ли у категории подкатегории
                 var subCategoryIds = db.Categories
                     .Where(c => c.ParentCategoryId == categoryId)
                     .Select(c => c.Id)
@@ -41,6 +41,22 @@ namespace NET8ASP.Controllers
                 {
                     productsQuery = productsQuery.Where(p => p.CategoryId == categoryId);
                 }
+
+                /// TODO: сделать вывод всех производителей у данной категори, если у данной категории нет подкатегорий
+                var manufacturerIds = db.Products
+                   .Where(p => p.CategoryId == categoryId ||
+                               db.Categories
+                                   .Where(c => c.ParentCategoryId == categoryId)
+                                   .Select(c => c.Id)
+                                   .Contains(p.CategoryId))
+                   .Select(p => p.ManufId)
+                   .Distinct()
+                   .ToList();
+
+                var manufacturers = db.Manufacturers
+                    .Where(m => manufacturerIds.Contains(m.Id))
+                    .ToList();
+                ///
             }
 
             if (!string.IsNullOrEmpty(searchQuery))

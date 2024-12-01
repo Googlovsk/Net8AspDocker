@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NET8ASP.Data.AppDbContext;
 using NET8ASP.Models.Domain;
+using NET8ASP.Models.Domain.Cart;
 using NET8ASP.Models.ViewModels;
 using System.Security.Claims;
 
@@ -21,12 +22,14 @@ namespace NET8ASP.Controllers
         [AllowAnonymous]
         public IActionResult Login()
         {
+            ViewBag.Error = null;
             return View();
         }
         [HttpGet]
         [AllowAnonymous]
         public IActionResult Register()
         {
+            ViewBag.Error = null;
             var userModel = new UserViewModel
             {
                 User = new User()
@@ -74,30 +77,39 @@ namespace NET8ASP.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Register(UserViewModel model)
         {
-            if (ModelState.IsValid)
+            if (model.User == null)
             {
-                if (model.User == null)
-                {
-                    model.User = new User();
-                }
-                var newUser = new User
-                {
-                    Fio = model.User.Fio,
-                    Phone = model.User.Phone,
-                    Login = model.User.Login,
-                    Password = model.User.Password,
-                    RoleId = 2
-                };
-                await db.Users.AddAsync(newUser);
-                await db.SaveChangesAsync();
+                model.User = new User();
+            }
+            if (model.User.RoleId == 0)
+            {
+                model.User.RoleId = 2;
+            }
+            var newUser = new User
+            {
+                Fio = model.User.Fio,
+                Phone = model.User.Phone,
+                Login = model.User.Login,
+                Password = model.User.Password,
+                RoleId = model.User.RoleId
+            };
 
-                return RedirectToAction("Login", "Auth");
-            }
-            else
-            {
-                ViewBag.Error = "Пожалуйста, заполните все поля корректно.";
-                return View(model);
-            }
+            await db.Users.AddAsync(newUser);
+            var cart = new Cart { UserId = newUser.Id };
+            db.Carts.Add(cart);
+            await db.SaveChangesAsync();
+
+            return RedirectToAction("Login", "Auth");
+
+            //if (ModelState.IsValid)
+            //{
+                
+            //}
+            //else
+            //{
+            //    ViewBag.Error = "Пожалуйста, заполните все поля корректно.";
+            //    return View(model);
+            //}      
         }
     }
 }

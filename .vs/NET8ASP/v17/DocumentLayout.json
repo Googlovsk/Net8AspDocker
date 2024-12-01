@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "D:\\vs\\NET8ASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\shared\\components\\navigationmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\shared\\components\\navigationmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\viewmodels\\paginginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\data\\infrastructure\\pagelinktaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\data\\infrastructure\\pagelinktaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\wwwroot\\js\\categoryselecthelper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\wwwroot\\js\\categoryselecthelper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|d:\\vs\\net8asp\\net8asp\\views\\order\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF3E0A76-A8DA-4AD4-AD72-DFBA9283B733}|NET8ASP\\NET8ASP.csproj|solutionrelative:net8asp\\views\\order\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,158 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagingInfo.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
-              "RelativeToolTip": "NET8ASP\\Models\\ViewModels\\PagingInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:55:06.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NET8ASP\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\HomeController.cs",
               "RelativeToolTip": "NET8ASP\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wB0AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:23:07.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T11:18:41.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T10:59:52.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PageLinkTagHelper.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
-              "RelativeToolTip": "NET8ASP\\Data\\Infrastructure\\PageLinkTagHelper.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:07:59.533Z",
+              "WhenOpened": "2024-12-01T21:29:02.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "NET8ASP\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "NET8ASP\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-30T11:07:17.19Z",
+              "Title": "NavigationMenuViewComponent.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\Components\\NavigationMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Views\\Shared\\Components\\NavigationMenuViewComponent.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\Components\\NavigationMenuViewComponent.cs",
+              "RelativeToolTip": "NET8ASP\\Views\\Shared\\Components\\NavigationMenuViewComponent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:27:52.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Category.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Models\\Domain\\Category.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\Domain\\Category.cs",
-              "RelativeToolTip": "NET8ASP\\Models\\Domain\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:46:46.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategorySelectHelper.js",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
-              "RelativeDocumentMoniker": "NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
-              "RelativeToolTip": "NET8ASP\\wwwroot\\js\\CategorySelectHelper.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-27T19:34:07.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "NET8ASP\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAewHoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:25:08.304Z",
+              "DocumentIndex": 5,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Order\\Payment.cshtml",
+              "RelativeDocumentMoniker": "NET8ASP\\Views\\Order\\Payment.cshtml",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Order\\Payment.cshtml",
+              "RelativeToolTip": "NET8ASP\\Views\\Order\\Payment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T21:23:32.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
-              "RelativeToolTip": "NET8ASP\\Models\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NET8ASP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T21:20:06.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\CartController.cs",
+              "RelativeToolTip": "NET8ASP\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswDMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:47:35.877Z"
+              "WhenOpened": "2024-12-01T21:18:02.617Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddProduct.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\AddProduct.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Product\\AddProduct.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\AddProduct.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Product\\AddProduct.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T19:15:49.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EditProduct.cshtml",
-              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\EditProduct.cshtml",
-              "RelativeDocumentMoniker": "NET8ASP\\Views\\Product\\EditProduct.cshtml",
-              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Views\\Product\\EditProduct.cshtml",
-              "RelativeToolTip": "NET8ASP\\Views\\Product\\EditProduct.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwDUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T19:15:48.111Z"
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "NET8ASP\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "NET8ASP\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:17:17.444Z",
+              "EditorCaption": ""
             }
           ]
         },
