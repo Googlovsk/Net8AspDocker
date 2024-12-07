@@ -1,0 +1,87 @@
+name: .NET Core CI/CD
+
+on:
+  push:
+    branches:
+      - main # Срабатывает только на пуши в ветку main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    services:
+      sqlserver:
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        ports:
+          - 1433:1433
+        options: >-
+          --health-cmd "exit 0"
+          --health-interval 10s
+          --health-timeout 10s
+          --health-retries 5
+        env:
+          SA_PASSWORD: "Your_password123"
+          ACCEPT_EULA: "Y"
+
+    steps:
+    # 1. Клонирование репозитория
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # 2. Настройка .NET Core SDK
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    # 3. Восстановление зависимостей
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # 4. Сборка проекта
+    - name: Build
+      run: dotnet build --no-restore --configuration Release
+
+    - name: Apply database migrations
+      run: dotnet ef database update
+
+    # 5. Запуск тестов
+    - name: Run tests
+      env:
+        ConnectionStrings__DefaultConnection: "Server=localhost,1433;Database=db;User Id=sa;Password=Str0ngP@ssw0rd!;Trusted_Connection=False;TrustServerCertificate=True;"
+      run: dotnet test --no-restore --verbosity normal
+    # 6. Логин в Docker Hub
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
+        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
+    # 7. Сборка и публикация Docker-образа
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        file: ./Dockerfile
+        push: true
+        tags: googlovsk/net8asp:latest
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+    # 8. SSH-доступ к серверу для развертывания
+    - name: Deploy to remote server
+      uses: appleboy/ssh-action@v0.1.9
+      with:
+        host: ${{ secrets.REMOTE_HOST }}
+        username: ${{ secrets.REMOTE_USER }}
+        password: ${{ secrets.REMOTE_PASSWORD }}
+        port: 22
+        script: |
+          docker -v
+          docker pull googlovsk/net8asp:latest
+          docker stop app || true
+          docker rm app || true
+          docker run -d --name app -p 80:80 googlovsk/net8asp:latest
