@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "NET8ASP\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\vs\\NET8ASP\\NET8ASP\\Controllers\\HomeController.cs",
               "RelativeToolTip": "NET8ASP\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAQwFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T21:29:02.208Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "NET8ASP\\Views\\Shared\\Components\\NavigationMenuViewComponent.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T21:27:52.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T21:27:52.711Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "NET8ASP\\Views\\Order\\Payment.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T21:23:32.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T21:23:32.276Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "NET8ASP\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T21:20:06.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T21:20:06.464Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "NET8ASP\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAswDMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T21:18:02.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T21:18:02.617Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "NET8ASP\\Controllers\\OrderController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAowDoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T21:17:17.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T21:17:17.444Z"
             }
           ]
         },

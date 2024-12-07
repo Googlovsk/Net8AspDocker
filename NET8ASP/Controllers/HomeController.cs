@@ -24,7 +24,7 @@ namespace NET8ASP.Controllers
             ViewData["SearchQuery"] = searchQuery;
             var productsQuery = db.Products.AsQueryable();
 
-           
+            
 
             if (categoryId.HasValue)
             {
