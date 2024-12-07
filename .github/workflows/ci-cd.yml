@@ -41,10 +41,7 @@ jobs:
     # 4. Сборка проекта
     - name: Build
       run: dotnet build --no-restore --configuration Release
-
-    - name: Apply database migrations
-      run: dotnet ef database update
-
+      
     # 5. Запуск тестов
     - name: Run tests
       env:
