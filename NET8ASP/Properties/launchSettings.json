@@ -27,11 +27,16 @@
     },
     "Container (Dockerfile)": {
       "commandName": "Docker",
+      "dockerOptions": {
+        "os": "Linux"
+      },
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "environmentVariables": {
         "ASPNETCORE_HTTPS_PORTS": "8081",
-        "ASPNETCORE_HTTP_PORTS": "8080"
+        "ASPNETCORE_HTTP_PORTS": "8080",
+        "DOTNET_USE_POLLING_FILE_WATCHER": "1",
+        "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "publishAllPorts": true,
       "useSSL": true

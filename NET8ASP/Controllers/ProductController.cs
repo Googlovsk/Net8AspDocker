@@ -63,9 +63,15 @@ namespace NET8ASP.Controllers
         [HttpPost]
         public async Task<IActionResult> AddProduct(Product product, IFormFile uploadedfile)
         {
+            string uploadPath = "/uploads";
+            if (!Directory.Exists(uploadPath))
+            {
+                Directory.CreateDirectory(uploadPath);
+            }
+
             if (uploadedfile != null)
             {
-                string path = $"/img/{uploadedfile.FileName}";
+                string path = Path.Combine("/uploads", uploadedfile.FileName);
                 product.Image = path;
                 using (var filestream = new FileStream(env.WebRootPath + path, FileMode.Create))
                 {
@@ -131,9 +137,15 @@ namespace NET8ASP.Controllers
             {
                 return NotFound();
             }
+            string uploadPath = "/uploads";
+            if (!Directory.Exists(uploadPath))
+            {
+                Directory.CreateDirectory(uploadPath);
+            }
+
             if (uploadedfile != null)
             {
-                string path = $"/img/{uploadedfile.FileName}";
+                string path = Path.Combine("/uploads", uploadedfile.FileName);
                 using (var filestream = new FileStream(env.WebRootPath + path, FileMode.Create))
                 {
                     await uploadedfile.CopyToAsync(filestream);

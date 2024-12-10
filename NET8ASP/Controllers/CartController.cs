@@ -17,6 +17,7 @@ namespace NET8ASP.Controllers
         {
             db = context;
         }
+        [HttpGet("api/Cart")]
         public IActionResult Index()
         {
             var cart = GetCart();
@@ -95,7 +96,6 @@ namespace NET8ASP.Controllers
 
             return RedirectToAction("Payment", "Order", new {orderId = order.Id});
         }
-        
         private Cart GetCart()
         {
             var userId = int.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value);
